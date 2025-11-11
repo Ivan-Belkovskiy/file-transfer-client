@@ -1,0 +1,39 @@
+.file-robot-content {
+    border: 10px solid #638aa3;
+    background-color: #031141;
+    width: 1200px;
+    height: 550px;
+    border-radius: 5px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.file-robot-content::before {
+    content: '';
+    position: absolute;
+    top: -60px;
+    left: calc(50% - 20px);
+    width: 20px;
+    height: 50px;
+    background-color: #1f435a;
+}
+
+.file-robot-content__main {
+    width: 100%;
+    height: calc(90% - 10px);
+    border-bottom: 10px solid #638aa3;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    /* background: #ff0000; */
+}
+
+.file-robot-content__buttons {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+    /* background-color: #0000ff; */
+}

@@ -1,0 +1,36 @@
+.file-robot-block {
+    position: relative;
+    width: 90%;
+    padding: 10px 0;
+    border: 5px solid #638aa3;
+    background-color: #031141;
+    margin-top: 30px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.file-robot-block__left {
+    width: 85%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.file-robot-block__right {
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.file-robot-block__title {
+    color: #fff;
+}
+
+.file-robot-block__button.download-button {
+    background-color: #00fa00;
+}

@@ -1,0 +1,53 @@
+.file-robot__container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.file-robot__top {
+    position: relative;
+    width: 780px;
+    height: 78px;
+    border: 10px solid #638aa3;
+    background-color: #031141;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+.file-robot__title {
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #00b7ff;
+}
+
+.file-robot__top::before {
+    content: '';
+    position: absolute;
+    top: -25px;
+    left: calc((50% - 32px) - 55px);
+    width: 32px;
+    height: 32px;
+    border: 4px solid #537697;
+    background: #000000;
+    background: radial-gradient(circle, rgba(0, 0, 0, 1) 40%, rgba(248, 203, 0, 1) 45%, rgba(248, 203, 0, 1) 90%);
+    border-radius: 60px;
+}
+
+.file-robot__top::after {
+    content: '';
+    position: absolute;
+    top: -25px;
+    left: calc((50% - 32px) + 55px);
+    width: 32px;
+    height: 32px;
+    border: 4px solid #537697;
+    background: #000000;
+    background: radial-gradient(circle, rgba(0, 0, 0, 1) 40%, rgba(248, 203, 0, 1) 45%, rgba(248, 203, 0, 1) 90%);
+    border-radius: 60px;
+}
